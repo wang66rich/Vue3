@@ -6,6 +6,7 @@
     <router-link to="/parent">插槽</router-link> |
     <router-link to="/SlotName">SlotName</router-link> |
     <router-link to="/slotScopes">slotScopes</router-link> |
+    <router-link to="/dynamicArguments">DynamicArguments</router-link>
   </nav>
   <router-view></router-view>
 </template>

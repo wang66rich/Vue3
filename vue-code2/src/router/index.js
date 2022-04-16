@@ -26,6 +26,11 @@ const routes = [
     component: () => import('../views/Parent.vue'),
   },
   {
+    path: '/dynamicArguments',
+    name: 'DynamicArguments',
+    component: () => import ('../views/DynamicArguments.vue')
+},
+  {
     path: '/SlotName',
     name: 'SlotName',
     component: () => import('../views/SlotName.vue'),
