@@ -2,5 +2,9 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import drag from "./drag";
 
-createApp(App).use(store).use(router).mount('#app')
+
+const app = createApp(App); // 创建 app
+app.use(store).use(router).mount('#app')
+app.directive("drag", drag); // 注册全局指令

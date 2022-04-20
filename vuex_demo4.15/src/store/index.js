@@ -18,27 +18,27 @@ const store = new Vuex.Store({
     add(state) {
       state.counter = state.counter+5
     },
-    // sub(state) {
-    //   state.counter = state.counter-5
-    // }
-
-    add(state,num) {
-      state.counter = state.counter+num
+    sub(state) {
+      state.counter = state.counter-5
     },
+
+    // add(state,num) {
+    //   state.counter = state.counter+num
+    // },
     // sub(state,num) {
     //   state.counter = state.counter-num
     // }
 
-    add(state, payload) {
-      state.counter = state.counter + payload.num * payload.multiple
-    },
+    // add(state, payload) {
+    //   state.counter = state.counter + payload.num * payload.multiple
+    // },
     // sub(state, payload) {
     //   state.counter = state.counter - payload.num * payload.multiple
     // }
 
-    [COUNTER_ADD](state, payload) {
-      state.counter = payload.num * payload.multiple + state.counter
-    },
+    // [COUNTER_ADD](state, payload) {
+    //   state.counter = payload.num * payload.multiple + state.counter
+    // },
     // [COUNTER_SUB](state, payload) {
     //   state.counter = state.counter - payload.num * payload.multiple
     // }

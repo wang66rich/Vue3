@@ -6,7 +6,14 @@
     <router-link to="/parent">插槽</router-link> |
     <router-link to="/SlotName">SlotName</router-link> |
     <router-link to="/slotScopes">slotScopes</router-link> |
-    <router-link to="/dynamicArguments">DynamicArguments</router-link>
+    <router-link to="/dynamicArguments">DynamicArguments</router-link> |
+    <router-link to="/globalApi">globalApi</router-link> |
+    <router-link to="/transition">transition</router-link> |
+    <router-link to="/tele">tele</router-link> |
+    <router-link to="/home">home</router-link> |
+    <router-link to="/testAnync">testAnync</router-link> |
+    <router-link to="/testAnync1">testAnync1</router-link> |
+    <router-link to="/testAnync2">testAnync2</router-link> |
   </nav>
   <router-view></router-view>
 </template>

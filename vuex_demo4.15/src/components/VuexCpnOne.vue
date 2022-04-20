@@ -1,20 +1,20 @@
 <template>
   <div>
-    <!-- <div>计数:{{counter}}</div>
+    <div>计数:{{counter}}</div>
   <button @click="counter++">++</button>
-  <button @click="counter--">--</button> -->
+  <button @click="counter--">--</button>
 
-    <!-- <div>计数:{{$store.state.counter}}</div>
+    <div>计数:{{$store.state.counter}}</div>
   <button @click="$store.state.counter++">++</button>
-  <button @click="$store.state.counter--">--</button> -->
+  <button @click="$store.state.counter--">--</button>
 
-    <!-- <div>计数:{{$store.state.counter}}</div>
+    <div>计数:{{$store.state.counter}}</div>
   <button @click="$store.commit('add')">++</button>
-  <button @click="$store.commit('sub')">--</button> -->
+  <button @click="$store.commit('sub')">--</button>
 
-    <!-- <div>计数:{{$store.state.counter}}</div>
+    <div>计数:{{$store.state.counter}}</div>
   <button @click="$store.commit('add',5)">+5</button>
-  <button @click="$store.commit('sub',5)">-5</button> -->
+  <button @click="$store.commit('sub',5)">-5</button>
 
     <div>计数:{{$store.state.counter}}</div>
   <button @click="$store.commit('add',{num:5,multiple:2})">+5</button>
