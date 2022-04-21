@@ -20,6 +20,11 @@ const routes = [
     path: "/testAnync1",
     name: "TestAnync1",
     component: () => import('../views/TestAsync1.vue'),
+  },
+  {
+    path: "/testroute",
+    name: "TestRoute",
+    component: () => import('../views/TestRoute.vue'),
  },
   {
     path: "/testAnync2",

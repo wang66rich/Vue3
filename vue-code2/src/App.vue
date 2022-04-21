@@ -14,6 +14,7 @@
     <router-link to="/testAnync">testAnync</router-link> |
     <router-link to="/testAnync1">testAnync1</router-link> |
     <router-link to="/testAnync2">testAnync2</router-link> |
+    <router-link to="/testroute">testroute</router-link> |
   </nav>
   <router-view></router-view>
 </template>
